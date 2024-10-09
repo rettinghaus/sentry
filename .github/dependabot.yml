@@ -72,3 +72,9 @@ updates:
       - '@getsentry/security'
     # security only updates
     open-pull-requests-limit: 0
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    reviewers:
+      - '@getsentry/owners-js-deps'
