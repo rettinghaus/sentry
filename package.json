@@ -65,7 +65,7 @@
     "@sentry/types": "^8.31.0-beta.0",
     "@sentry/utils": "^8.31.0-beta.0",
     "@sentry/webpack-plugin": "^2.22.4",
-    "@spotlightjs/spotlight": "^2.0.0-alpha.1",
+    "@spotlightjs/spotlight": "^2.5.0",
     "@tanstack/react-query": "^5.56.2",
     "@tanstack/react-query-devtools": "^5.56.2",
     "@tanstack/react-virtual": "^3.5.1",
