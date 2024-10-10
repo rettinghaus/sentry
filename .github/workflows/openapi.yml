@@ -69,7 +69,7 @@ jobs:
           cp rpc_method_schema.json sentry-api-schema
 
       - name: Git Commit & Push
-        uses: stefanzweifel/git-auto-commit-action@0049e3fa4059ca715255fbbcb7dea4516f02ce0a # v4.15.3
+        uses: stefanzweifel/git-auto-commit-action@8621497c8c39c72f3e2a999a26b4ca1b5058a842 # v5.0.1
         if: steps.changes.outputs.api_docs == 'true'
         with:
           repository: sentry-api-schema
